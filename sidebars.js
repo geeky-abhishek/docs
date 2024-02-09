@@ -6,7 +6,6 @@ module.exports = {
       collapsed: false,
       items: ['index', 'intro/environment', 'intro/cli'],
     },
-    
   ],
 
   // api: [{

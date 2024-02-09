@@ -8,8 +8,7 @@ const BASE_URL = '/docs';
 
 module.exports = {
   title: 'BharatSahAIyak Documentation',
-  tagline:
-    'tag line',
+  tagline: 'tag line',
   url: 'https://turbo-vercel-testjjjj.vercel.app/',
   baseUrl: `/`,
   i18n: {
@@ -28,7 +27,7 @@ module.exports = {
   themeConfig: {
     // metadata: [
     //   { name: 'og:image', content: 'https://ionicframework.com/docs/img/meta/open-graph.png' },
-    
+
     //   {
     //     name: 'fb:page_id',
     //     content: '1321836767955949',
@@ -53,8 +52,8 @@ module.exports = {
         srcDark: '/logos/dark-logo.png',
         href: '/',
         target: '_self',
-        width: "140px",
-        height: "45px"
+        width: '140px',
+        height: '45px',
       },
       items: [
         {
@@ -67,7 +66,7 @@ module.exports = {
         //   type: 'docsVersionDropdown',
         //   position: 'right',
         //   dropdownItemsAfter: [
-           
+
         //     { to: 'hostedlink', label: 'v1', target: '_blank' },
         //   ],
         //   // dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],

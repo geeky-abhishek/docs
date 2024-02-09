@@ -4,8 +4,8 @@ sidebar_label: Overview
 slug: /
 hide_table_of_contents: true
 # Enter to show mobile phone view of website
-# demoUrl: 
-# demoSourceUrl: 
+# demoUrl:
+# demoSourceUrl:
 ---
 
 import DocsCard from '@components/global/DocsCard';
@@ -13,16 +13,9 @@ import DocsCards from '@components/global/DocsCards';
 
 <head>
   <title>BharatSahAIyak Docs</title>
-  <meta
-    name="description"
-    content="your meta description"
-  />
+  <meta name="description" content="your meta description" />
   <link rel="rel" href="href" />
 </head>
-
-
-
-
 
 <intro-end />
 
@@ -31,14 +24,11 @@ import DocsCards from '@components/global/DocsCards';
     <p>Step-by-step guides to setting up your system and installing the framework.</p>
   </DocsCard>
 
-
-
 </DocsCards>
 
 ## Overview
 
 Your project's overview
-
 
 ## Appflow
 

@@ -16,7 +16,6 @@ Of course, a code editor is also required. [Visual Studio Code](https://code.vis
 
 ## Terminal
 
-
 In general, we recommend using the built-in terminals. Many third-party terminals work well with Ionic, but may not be supported.
 
 - For Windows, **Command Prompt** and **PowerShell** are supported. <a href="https://docs.microsoft.com/en-us/windows/wsl/faq" target="_blank">WSL</a> is known to work with Ionic, but may not be supported.
@@ -37,10 +36,7 @@ $ node --version
 $ npm --version
 ```
 
-
-
 ## Git
-
 
 Git is often accompanied by a Git Host, such as [GitHub](https://github.com/), in which case additional setup is required. Follow the tutorial from the Git Host's documentation to set up Git:
 
