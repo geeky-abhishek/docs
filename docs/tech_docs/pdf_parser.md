@@ -1,6 +1,6 @@
-### How it works
+### Steps involved in PDF-Parsing
 
-Ingesting PDF  : 
+
 -  Each page is extracted from the pdf (depending on parameters passed for number of pages to be processed at a time)
 -  Text is extracted along with the structure metadata (bbox of each word) in the form using [PyMuPDF](https://github.com/pymupdf/PyMuPDF?tab=readme-ov-file)
 -  If no text is extracted/ text extracted has an unkown encoding, it is sent to [Pytesseract](https://github.com/tesseract-ocr/tesseract) and text is OCRed for the required language (language should be provided at input- functionality to predict the language is not yet built in- can be done using [clip](https://github.com/openai/CLIP) 
