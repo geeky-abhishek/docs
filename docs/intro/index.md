@@ -26,8 +26,3 @@ BharatSahAIyak is a powerful platform designed to empower users to create [RAG](
 3. **Organization and Owner Management:** Users can create organizations and define multiple owners within each organization to manage their bots effectively. This hierarchical structure provides flexibility and control over bot management.
 
 4. **PDF Ingestion and Query Handling:** BharatSahAIyak is equipped with the ability to ingest PDF documents and create bots capable of answering queries related to PDF content. This feature enhances the platform's versatility and usefulness in handling diverse data sources.
-
-## Getting Started
-
-
-**Start Building Intelligent Bots with BharatSahAIyak Today!**

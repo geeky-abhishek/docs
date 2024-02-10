@@ -177,3 +177,9 @@ Return the corresponding error code with relevant error message.
     "error": "This went wrong",
 }
 ```
+
+<h2>How to use User Management Service</h2>
+<p>
+Once the User Management Service is up and running with the given spec, the only thing required to do is to add the `BASE_URL`
+of your service to the `url` property of the UserSegment while creating a UserSegment.
+</p>
