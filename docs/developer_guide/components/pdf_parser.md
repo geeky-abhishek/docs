@@ -1,3 +1,8 @@
+---
+title: PDF Parser
+sidebar_label: PDF Parser
+---
+
 ### Steps involved in PDF-Parsing
 
 - Each page is extracted from the pdf (depending on parameters passed for number of pages to be processed at a time)

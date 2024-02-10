@@ -58,114 +58,14 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'index',
+          docId: 'intro/index',
           label: 'Guide',
           position: 'left',
         },
-        // {
-        //   type: 'docsVersionDropdown',
-        //   position: 'right',
-        //   dropdownItemsAfter: [
-
-        //     { to: 'hostedlink', label: 'v1', target: '_blank' },
-        //   ],
-        //   // dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
-        //   dropdownActiveClassDisabled: true,
-        // },
-        // {
-        //   type: 'search',
-        //   position: 'right',
-        // },
-        // {
-        //   label: 'Community',
-        //   position: 'right',
-        //   items: [
-        //     {
-        //       href: 'https://ionicframework.com/community',
-        //       label: 'Community Hub',
-        //       target: '_blank',
-        //       rel: null,
-        //     },
-        //     {
-        //       href: 'https://forum.ionicframework.com/',
-        //       label: 'Forum',
-        //       target: '_blank',
-        //       rel: null,
-        //     },
-        //     {
-        //       href: 'https://www.meetup.com/topics/ionic-framework/',
-        //       label: 'Meetups',
-        //       target: '_blank',
-        //       rel: null,
-        //     },
-        //     {
-        //       href: 'https://blog.ionicframework.com/',
-        //       label: 'Blog',
-        //       target: '_blank',
-        //       rel: null,
-        //     },
-        //     // {
-        //     //   href: 'https://twitter.com/ionicframework',
-        //     //   label: 'Twitter',
-        //     //   target: '_blank',
-        //     //   rel: null,
-        //     // },
-        //   ],
-        //   className: 'navbar__link--community',
-        // },
-        // {
-        //   label: 'Support',
-        //   position: 'right',
-        //   items: [
-        //     {
-        //       href: 'https://ionicframework.com/support',
-        //       label: 'Help Center',
-        //       target: '_blank',
-        //       rel: null,
-        //     },
-        //     {
-        //       href: 'https://ionic.zendesk.com/',
-        //       label: 'Customer Support',
-        //       target: '_blank',
-        //       rel: null,
-        //     },
-        //     {
-        //       href: 'https://ionicframework.com/advisory',
-        //       label: 'Enterprise Advisory',
-        //       target: '_blank',
-        //       rel: null,
-        //     },
-        //   ],
-        //   className: 'navbar__link--support',
-        // },
         {
           type: 'separator',
           position: 'right',
         },
-        // {
-        //   type: 'localeDropdown',
-        //   position: 'right',
-        //   dropdownItemsBefore: [],
-        //   dropdownItemsAfter: [
-        //     {
-        //       href: 'https://ionicframework.com/translate',
-        //       label: 'Translate',
-        //       target: '_blank',
-        //       rel: null,
-        //     },
-        //   ],
-        //   className: 'icon-link language navbar__item',
-        // },
-        // {
-        //   type: 'iconLink',
-        //   position: 'right',
-        //   icon: {
-        //     alt: 'twitter logo',
-        //     src: `/logos/twitter.svg`,
-        //     href: 'https://twitter.com/Ionicframework',
-        //     target: '_blank',
-        //   },
-        // },
         {
           type: 'iconLink',
           position: 'right',
@@ -176,16 +76,6 @@ module.exports = {
             target: '_blank',
           },
         },
-        // {
-        //   type: 'iconLink',
-        //   position: 'right',
-        //   icon: {
-        //     alt: 'discord logo',
-        //     src: `/logos/discord.svg`,
-        //     href: 'https://ionic.link/discord',
-        //     target: '_blank',
-        //   },
-        // },
       ],
     },
     tagManager: {
